@@ -246,7 +246,8 @@
 	clear:both;
 }
 .zui_long>div{
-	float:left;
+	/* float:left; */
+	display: inline-block;
 }
 .zui{
 	background: #ebebeb;
@@ -260,17 +261,8 @@
 .zui_txt{
 	overflow:hidden;
 }
-.zui_left{
-	float:left;
-	width:50%;
-}
 .zui_left img{
 	width:100%;
-}
-.zui_right{
-	float:left;
-	padding:7%;
-	width:50%;
 }
 .zui_right p:nth-child(1){
 	margin: 0;

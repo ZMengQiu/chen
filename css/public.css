@@ -40,6 +40,58 @@
 	.bian0{
 		display:inline-block;
 	}
+	/* 新品推荐 */
+	#he{
+		width:5%;
+	}
+	#he-left{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	#he-right{
+		float: none;
+		width: 100%;
+	}
+	#but-left{
+		left:33%;
+	}
+	#but-right{
+		right:33%;
+	}
+	#he-left>p:nth-child(2)::after {
+		left: 50%;
+	}
+	/* 最新活动*/
+	#zui{
+		/* float: none; */
+		width: 10%;
+	}
+	#zui_left{
+		float:none;
+		display: inline-block;
+		width:100%;
+	}
+	#zui_right{
+		float:none;
+		padding:2%;
+		width:100%;
+	}
+	#zui_right p:nth-child(1){
+		font-size: 20px;
+	}
+	#zui_right p{
+		color: #333;
+		margin: 0;
+		/* height: 0; */
+	}
+	#zui_right p:nth-child(3){
+		height: 30px;
+	}
+	#zui_right .cha{
+		display: block;
+		margin: 0 auto;
+	}
 }
 @media (min-width:768px) {
 	/* 导航 */
@@ -138,11 +190,22 @@
 	#but-right{
 		right:43%;
 	}
+	/* 最新活动*/
+	#zui_left{
+		float:left;
+		width:50%;
+	}
+	#zui_right{
+		float:right;
+		padding:7%;
+		width:50%;
+	}
+
 	/* 页尾 */
 	#img,#tel{
 		float:none;
 		text-align:center;
-	}
+	} 
 	#tel{
 		margin-top:20px;
 	}
@@ -282,6 +345,16 @@
 	#but-right{
 		right:45%;
 	}
+	/* 最新活动*/
+	#zui_left{
+		float:left;
+		width:50%;
+	}
+	#zui_right{
+		float:right;
+		padding:7%;
+		width:50%;
+	}
 	/* 页尾 */
 	#img{
 	    float: left;
@@ -417,6 +490,16 @@
 	}
 	#but-right{
 		right:45%;
+	}
+	/* 最新活动*/
+	#zui_left{
+		float:left;
+		width:50%;
+	}
+	#zui_right{
+		float:right;
+		padding:7%;
+		width:50%;
 	}
 	/* 页尾 */
 	#img{
