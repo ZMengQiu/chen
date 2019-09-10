@@ -1,0 +1,76 @@
+@media (min-width:768px) {
+	#news{
+    	padding-left: 31%;
+	}
+	#news>img{
+		position: absolute;
+	    width: 27%;
+	    left: 0px;
+	    top: 0px;
+	}
+}
+@media (min-width:992px) {
+	#news{
+    	padding-left: 31%;
+	}
+	#news>img{
+		position: absolute;
+	    width: 27%;
+	    left: 0px;
+	    top: 0px;
+	}
+}
+@media (min-width:1200px) {
+	#news{
+    	padding-left: 31%;
+	}
+	#news>img{
+		position: absolute;
+	    width: 27%;
+	    left: 0px;
+	    top: 0px;
+	}
+}
+.news{
+	position: relative;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    overflow: hidden;
+}
+.news>img{
+	position: static;
+    width: 100%;
+}
+#all_left{
+	text-align: center;
+}
+.txt{
+	cursor: pointer;
+}
+.txt>p{
+	line-height: 24px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    height: 48px;
+    margin: 0px;
+    overflow: hidden;
+}
+time{
+	display: block;
+    padding-left: 20px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+    background: url('../images/ico_time.png') left center no-repeat;
+    margin: 20px 0px;
+}
+.txt>span{
+	display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+    background: url('../images/ico_more.png') no-repeat;
+}
+.txt>h3:hover{
+	color: red;
+}
+

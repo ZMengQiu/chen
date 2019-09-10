@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新闻中心</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<script src="../js/jquery-1.11.1.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/jquery.mousewheel.js"></script>
+		<script src="../js/public.js"></script>
+		<script src="../js/tou.js"></script>
+		<link rel="stylesheet" href="../css/public.css">
+		<link rel="stylesheet" href="../css/tou.css" />
+		<link rel="stylesheet" href="../css/news.css">
+	</head>
+	<body>
+		<!-- 导航 -->
+	<nav class="zmq_nav">
+		<div class="cont auto">
+			<div class="nav_en">
+				<a href="#">EN</a>
+			</div>
+			<div class="nav_header">
+				<a class="logo" href="#"><img src="../images/logo.png" alt=""></a>
+			</div>
+			<div class="nav_body" id="nav_body">
+				<ul class="nav_ul">
+					<li><a href="../index.html" target="_blank">首页</a></li>
+					<li>
+						<a href="about.html" target="_blank" class="guan_a">关于晨光</a>
+						<div class="guan">
+							<div class="gg">
+								<dl>
+									<dt>
+										<a href="#">公司简介</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">总裁寄语</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">走进晨光</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">企业文化</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">发展历程</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">社会责任</a>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="chan.html" target="_blank">产品中心</a>
+						<div class="guan">
+							<div class="gg">
+								<dl>
+									<dt>
+										<a href="#">晨光品牌馆</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">新品推荐</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">文具研究所</a>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="bold">新闻中心</a>
+							<div class="guan">
+								<div class="gg ggg1">
+									<dl>
+										<dt>
+											<a href="#">企业新闻</a>
+										</dt>
+									</dl>
+									<dl>
+										<dt>
+											<a href="#">资料中心</a>
+										</dt>
+										<dd><a href="#">企业形象</a></dd>
+										<dd><a href="#">宣传视频</a></dd>
+									</dl>
+									<dl>
+										<dt>
+											<a href="#">最新活动</a>
+										</dt>
+									</dl>
+								</div>
+							</div>
+						</li>
+					<li>
+						<a href="tou.html" target="_blank">投资者关系</a>
+						<div class="guan">
+							<div class="gg ggg2">
+								<dl>
+									<dt>
+										<a href="#">公司公告</a>
+									</dt>
+									<dd><a href="#">临时公告</a></dd>
+									<dd><a href="#">定期公告</a></dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">公司治理</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">投资者互动</a>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="jia.html" target="_blank">加入晨光</a>
+						<div class="guan">
+							<div class="gg ggg3">
+								<dl>
+									<dt>
+										<a href="#">人才培养</a>
+									</dt>
+									<dd><a href="#">人才理念</a></dd>
+									<dd><a href="#">员工培养</a></dd>
+									<dd><a href="#">员工互动</a></dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">校园招聘</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">社会招聘</a>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="fu.html" target="_blank">服务中心</a>
+						<div class="guan gg6">
+							<div class="gg">
+								<dl>
+									<dt>
+										<a href="#">总部热线</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">留言反馈</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">线上授权</a>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">定制服务</a>
+									</dt>
+								</dl>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="nav_menu">
+				<div class="oopen">
+					<span class="open"></span>
+				</div>
+				<!-- 模态框 大屏-->
+				<div class="mo none zmq">
+					<div class="moo">
+						<div class="mmo">
+							<ul>
+								<li><a href="#">首页</a></li>
+								<li>
+									<a href="#">关于晨光</a>
+									<div class="mmbox">
+										<ul>
+											<li>公司简介</li>
+											<li>总裁寄语</li>
+											<li>走进晨光</li>
+											<li>企业文化</li>
+											<li>发展历程</li>
+											<li>社会责任</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">产品中心</a>
+									<div class="mmbox">
+										<ul>
+											<li>晨光品牌馆</li>
+											<li>新品推荐</li>
+											<li>文具研究所</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">新闻中心</a>
+									<div class="mmbox">
+										<ul>
+											<li>企业新闻</li>
+											<li>媒体报道</li>
+											<li>资料中心</li>
+											<li>最新活动</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">投资者关系</a>
+									<div class="mmbox">
+										<ul>
+											<li>公司公告</li>
+											<li>公司治理</li>
+											<li>投资者互动</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">加入晨光</a>
+									<div class="mmbox">
+										<ul>
+											<li>人才培养</li>
+											<li>校园招聘</li>
+											<li>社会招聘</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">服务中心</a>
+									<div class="mmbox">
+										<ul>
+											<li>总部热线</li>
+											<li>留言反馈</li>
+											<li>线上授权</li>
+											<li>定制业务</li>
+										</ul>
+									</div>
+								</li>
+								<div class="sou">
+									<input type="search" placeholder="搜索">
+									<span>GO</span>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 模态框 小屏 -->
+				<div class="small_mo none zmq">
+					<div class="smo">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li>
+								<a href="#">关于晨光</a>
+								<div class="ssbox">
+									<ul>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">公司简介</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">总裁寄语</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">走进晨光</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">企业文化</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">发展历程</li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">社会责任</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">产品中心</a>
+								<div class="ssbox">
+									<ul>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">晨光品牌馆</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">新品推荐</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">文具研究所</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">新闻中心</a>
+								<div class="ssbox">
+									<ul class="ulbox">
+										<li><img src="../images/ico_san.png" alt=""><a href="#">企业新闻</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">媒体报道</a></li>
+										<li>
+											<img src="../images/ico_san.png" alt="">
+											<a href="#">资料中心</a>
+											<div class="lala">
+												<p>企业形象</p>
+												<p>宣传视频</p>
+											</div>
+										</li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">最新活动</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">投资者关系</a>
+								<div class="ssbox">
+									<ul class="ulbox">
+										<li>
+											<img src="../images/ico_san.png" alt="">
+											<a href="#">公司公告</a>
+											<div class="lala">
+												<p>临时公告</p>
+												<p>定期公告</p>
+											</div>
+										</li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">公司治理</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">投资者互动</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">加入晨光</a>
+								<div class="ssbox">
+									<ul class="ulbox">
+										<li>
+											<img src="../images/ico_san.png" alt="">
+											<a href="#">人才培养</a>
+											<div class="lala">
+												<p>人才理念</p>
+												<p>员工培养</p>
+												<p>员工活动</p>
+											</div>
+										</li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">校园招聘</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">社会招聘</a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">服务中心</a>
+								<div class="ssbox">
+									<ul>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">总部热线</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">留言反馈</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">线上授权</a></li>
+										<li><img src="../images/ico_san.png" alt=""><a href="#">定制业务</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="t_sec">
+		<div class="t_img">
+			<img src="../images/news.jpg" alt="">
+		</div>
+		<div class="t_menu" id="t_menu">
+			<div class="t_nav" id="t_nav">
+				<ul>
+					<li class="fontw">公司公告</li>
+					<li>公司治理</li>
+					<li>投资者互动</li>
+				</ul>
+			</div>
+			<div class="house_nav" id="house_nav">
+				<ul>
+					<li>当前位置：</li>
+					<li>首页 &gt;&gt;</li>
+					<li>投资者关系 &gt;&gt;</li>
+					<li>公司公告 &gt;&gt;</li>
+					<li>临时公告 &gt;&gt;</li>
+					<li>2019</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<article class="art">
+		<div class="center">
+			<div class="ar_top hua0" id="ar_top">
+				<span class="add_xian">临时公告</span>
+				<span>定期公告</span>
+			</div>
+			<div class="all">
+				<div class="all_left hua0" id="all_left">
+					<ul class="all_ul" id="all_ul">
+						<li class="add_red">2019</li>
+						<li>2018</li>
+						<li>2017</li>
+						<li>2016</li>
+						<li>2015</li>
+					</ul>
+				</div>
+				<div class="all_right hua" id="all_right">
+					<div class="news_all">
+						<div class="news news_1" id="news">
+							<img src="../images/aa1.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_2" id="news">
+							<img src="../images/aa2.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_3" id="news">
+							<img src="../images/aa3.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_4" id="news">
+							<img src="../images/aa4.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_5" id="news">
+							<img src="../images/aa5.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_6" id="news">
+							<img src="../images/aa9.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_7" id="news">
+							<img src="../images/aa10.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						<div class="news news_8" id="news">
+							<img src="../images/aa8.jpg" alt="" />
+							<div class="txt">
+								<h3>“千人翰墨舞，薪火永相传” 第四届晨光杯书法大赛活动现场火爆！</h3>
+								<p>近日，“我是中国人，写好中国字”第四届晨光杯书法大赛开展得如火如荼，群贤雅集，翰墨飘香。来自全国各地的小小书法家们热情参与，传承国粹。</p>
+								<time>2019-08-05</time>
+								<span></span>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="all_bottom">
+					<span class="first">首页</span>
+					<span class="zuo">&lt;</span>
+					<ul class="bo_ul" id="bo_ul">
+						<li class="add_bo">1</li>
+						<li>2</li>
+					</ul>
+					<span class="you">&gt;</span>
+					<span class="last">末页</span>
+				</div>
+			</div>
+		</div>
+	</article>
+
+
+	<!-- 页尾 -->
+	<footer class="foo">
+		<div class="foo_cont">
+			<div class="foo_one" id="foo_one">
+				<div class="img" id="img">
+					<img src="../images/wenju.png" alt="">
+				</div>
+				<div class="tel" id="tel">
+					<p>联系电话</p>
+					<span>021-57474488</span>
+				</div>
+			</div>
+			<div class="foo_two">
+				<div class="foo_left" id="foo_left">
+					<ul class="foo_ul" id="foo_ul">
+						<li>关于晨光&nbsp;&nbsp;&nbsp;/</li>
+						<li>产品中心&nbsp;&nbsp;&nbsp;/</li>
+						<li>新闻中心&nbsp;&nbsp;&nbsp;/</li>
+						<li>投资者关系&nbsp;&nbsp;&nbsp;/</li>
+						<li>加入晨光&nbsp;&nbsp;&nbsp;/</li>
+						<li>服务中心</li>
+					</ul>
+				</div>
+				<div class="foo_right" id="foo_right">
+					<ul class="www" id="www">
+						<li>
+							<img src="../images/w1.jpg" alt="" width="98px">
+							<p>关注晨光<span>微信账号</span></p>
+						</li>
+						<li>
+							<img src="../images/w2.jpg" alt="" width="98px">
+							<p>关注晨光<span>微博账号</span></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foo_bottom" id="foo_bottom">
+				<ul class="foo_ul">
+					<li>友情链接</li>
+					<li>法律声明</li>
+					<li>网站地图</li>
+					<li>联系我们</li>
+				</ul>
+				<p>Copyright &copy; 2018 Shanghai M&G Stationery INC. All Rights Reserved. 沪ICP备05010720号-1 Designed By Wanhu</p>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- 固定测导航 -->
+	<aside class="asi">
+		<p>在</p>
+		<p>线</p>
+		<p>商</p>
+		<p>成</p>
+	</aside>
+	<div class="intop">
+		<img src="../images/intop.png" alt="">
+	</div>
+
+	</body>
+</html>

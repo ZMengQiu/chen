@@ -1,0 +1,47 @@
+.fu{
+	width: 100%;
+	margin: 50px auto;
+}
+.fu>h1{
+	text-align: center;
+	margin: 50px 0;
+	color: red;
+	transition: 1s;
+}
+.fbox_one,.fbox_two{
+	border: 1px solid rgba(0,0,0,0.1);
+	width: 90%;
+	margin: 0 auto;
+	padding: 3%;
+	transition: 2s;
+}
+.fbox_one>p{
+	font-size: 18px;
+	color: #333;
+}
+.fbox_two>span{
+	font-size: 18px;
+	margin-right: 5%;
+	color: #333;
+}
+.fff{
+	font-size: 25px;
+	font-weight: 500;
+	padding:2% 0;
+}
+.fone{
+	display: inline-block;
+	padding:2% 0;
+}
+.hui{
+	color: #999;
+	margin-left: 5%;
+}
+.hua{
+	opacity: 0;
+	transform: translateY(-30px);
+}
+.hua0{
+	opacity: 0;
+	transform: translateY(100px);
+}
