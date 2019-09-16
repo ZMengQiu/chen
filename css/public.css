@@ -92,6 +92,96 @@
 		display: block;
 		margin: 0 auto;
 	}
+	/* 页尾 */
+	#foo_cont{
+		padding-top: 5%;
+		padding-bottom: 1%;
+    	width: 98%;
+	}
+	#foo_one{
+		padding-bottom: 0px;
+	}
+	#img{
+		float:left;
+		width: 40%;
+	}
+	#img>img{
+		width: 100%;
+	}
+	#tel{
+		float: right;
+		margin-top:0px;
+	}
+	#tel>p,#tel>span{
+		color: #fff;
+		font-size: 12px;
+	}
+	#foo_two{
+		margin-top: 5%;
+	}
+	#foo_left{
+		width: 100%;
+	    float: none;
+	    margin-top: 0;
+	    margin-bottom: 5%;
+	    text-align: center;
+	}
+	#foo_ul{
+		float:none;
+	}
+	#foo_ul>li{
+		font-size: 12px;
+		margin-left: 1%;
+	}
+	#foo_right{
+		width: 100%;
+    	float: none;
+    	text-align:center;
+	}
+	#www li{
+		float: none;
+	    display: inline-block;
+	    width: auto;
+	    padding-left: 0;
+	    padding: 0 20px;
+	}
+	#www li img{
+		margin-left:0;
+		width: 60px;
+	}
+	#www li p{
+		width:100%;
+		font-size: 12px;
+		position: static;
+    	margin-top: 15px;
+	    text-align:center;
+	}
+	#foo_bottom{
+		text-align:center;
+		padding-top: 5%;
+    	margin-top: 5%;
+	}
+	#foo_bottom ul,#foo_bottom p{
+		float:none;
+		font-size: 12px;
+	}
+	#foo_bottom ul li{
+		font-size: 12px;
+		float:none;
+		display:inline-block;
+	}
+	/* 侧导航 */
+	#asi{
+		padding: 2%;
+	}
+	#asi>p{
+		font-size: 12px;
+	}
+	#asi::after{
+		width: 50%;
+		left: 30%;
+		bottom: 1%;
+	}
 }
 @media (min-width:768px) {
 	/* 导航 */
@@ -980,6 +1070,8 @@ a:hover, a:focus {
     padding-top: 10px;
 }
 .foo_bottom{
+	border-top: 1px solid #666;
+	padding-top: 50px;
 	margin-top: 50px;
 	text-align:center;
 }
