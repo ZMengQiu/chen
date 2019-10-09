@@ -3,6 +3,7 @@
 	.nav_header{
 		width:126px;
 		line-height:70px;
+		padding-left: 5%;
 	}
 	.oopen .bian{
 		width: 34px;
@@ -37,10 +38,33 @@
 	.small_mo{
 		display:block;
 	}
+	#smo{
+		width: 180px;
+	}
 	.bian0{
 		display:inline-block;
 	}
+	/* 新闻动态 */
+	.h_title{
+		font-size: 30px!important;
+	}
+	.h_span{
+		font-size: 20px!important;
+	}
+	.he-left>p:nth-child(2){
+		font-size: 20px!important;
+	}
+	.he-left>p:nth-child(3){
+		margin-top: 30px!important;
+	}
+	.cha{
+		margin-top: 20px!important;
+	}
+	
 	/* 新品推荐 */
+	.he-heading{
+		font-size: 30px!important;
+	}
 	#he{
 		width:5%;
 	}
@@ -48,6 +72,7 @@
 		float: none;
 		width: 100%;
 		text-align: center;
+		padding: 5%;
 	}
 	#he-right{
 		float: none;
@@ -62,6 +87,10 @@
 	#he-left>p:nth-child(2)::after {
 		left: 50%;
 	}
+	.hello{
+		margin-bottom: 12%!important;
+	}
+	
 	/* 最新活动*/
 	#zui{
 		/* float: none; */
@@ -71,6 +100,9 @@
 		float:none;
 		display: inline-block;
 		width:100%;
+	}
+	.zui_left img{
+		height: 50vh;
 	}
 	#zui_right{
 		float:none;
@@ -92,6 +124,20 @@
 		display: block;
 		margin: 0 auto;
 	}
+	/* 品牌视频 */
+	.play_a::after{
+		background-size: 100%!important;
+		width: 60px!important;
+		height: 60px!important;
+	}
+	.prevButton,.nextButton{
+		background-size: 100%!important;
+		width: 50px!important;
+		height: 50px!important;
+		margin-top: -25px!important;
+		margin-left: -25px!important;
+	}
+	
 	/* 页尾 */
 	#foo_cont{
 		padding-top: 5%;
@@ -156,6 +202,9 @@
     	margin-top: 15px;
 	    text-align:center;
 	}
+	.foo_cont{
+		padding: 5% 0 !important;
+	}
 	#foo_bottom{
 		text-align:center;
 		padding-top: 5%;
@@ -181,6 +230,39 @@
 		width: 50%;
 		left: 30%;
 		bottom: 1%;
+	}
+	/* 关于晨光 */
+	.ppppp>p{
+		font-size: 14px!important;
+	}
+	/* 新闻中心 */
+	.all{
+		padding-left: 2%!important;
+	}
+	.txt>h3{
+		font-size: 20px;
+	}
+	/* 加入晨光 */
+	.jiaru dl>dt>a{
+		font-size: 20px!important;
+	}
+	.jiaru dl>dd>p{
+		font-size: 14px;
+	}
+	/* 服务中心 */
+	.fu>h1{
+		font-size: 30px;
+	}
+	.hui{
+		display: block;
+		margin: 0 0 10px 0!important;
+	}
+	.fff{
+		font-size: 20px!important;
+	}
+	.fbox_one>p,.fbox_two>span{
+		font-size: 14px!important;
+		line-height: 22px;
 	}
 }
 @media (min-width:768px) {

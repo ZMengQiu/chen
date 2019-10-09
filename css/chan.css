@@ -13,6 +13,9 @@
 		font-size: 36px;
 	}
 }
+main{
+	margin: 10% 0;
+}
 .ch_title{
 	color: red;
 	position: relative;
